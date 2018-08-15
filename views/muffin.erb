@@ -1,0 +1,14 @@
+<div class="sweets">
+<h1>The Prince's Muffins!</h1>
+<img src="/images/v4.jpg" class="headpic">
+<div class="treat-container">
+<% $muffins.each do |muffin| %>
+<div>
+  <h2><%= muffin.name%></h2>
+  <img src= "<%= muffin.image %>" class="image-size">
+  <p><%= muffin.description %></p>
+  <p><%= muffin.cost %></p>
+</div>
+<% end %>
+</div>
+</div>

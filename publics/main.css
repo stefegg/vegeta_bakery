@@ -1,0 +1,163 @@
+body {
+  margin: 0 0 0 0;
+  background-color: #4b82cd;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  text-align: center;
+  margin: 0 auto;
+  color: #4b82cd;
+  text-shadow: 2px 3px 2px #0A3176;
+  font-size: 12vh;
+  padding: 2vh 0;
+}
+
+h2 {
+  font-family: 'Loved by the King', cursive;
+  font-size: 6vh;
+  text-align: center;
+  margin: 0 auto;
+  color: #0A3176;
+  text-shadow: 2px 2px 2px #4b82cd;
+}
+
+
+
+.nav {
+  max-width: 100%;
+  display: grid;
+  grid-template: 15vh / 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #4b82cd;
+  color: #fbb4dc;
+  font-size: 4vh;
+  font-family: 'Loved by the King', cursive;
+  text-align: left;
+}
+
+.nav div:nth-child(2) {
+  padding-top: 2vh;
+}
+
+.nav div:nth-child(3) {
+  padding-top: 2vh;
+}
+
+.nav div:nth-child(4) {
+  padding-top: 2vh;
+}
+
+.nav div:nth-child(5) {
+  padding-top: 2vh;
+}
+
+.nav div:nth-child(6) {
+  padding-top: 2vh;
+}
+
+.nav div:nth-child(7) {
+  padding-top: 2vh;
+}
+
+.nav a {
+  margin-top: 4vh;
+  color: #fbb4dc;
+}
+
+.nav img {
+  max-width: 12vh;
+  margin: 0 25%;
+}
+
+.footer {
+  max-width: 100%;
+  display: grid;
+  grid-template: 8vh / 1fr 1fr 1fr 1fr 1fr;
+  background-color: #4b82cd;
+  color: #f0dc39;
+  padding-left: 4vh;
+  font-size: 3vh;
+  font-family: 'Cute Font', cursive;
+  margin-top: 2%
+}
+
+.container {
+background-color: #fbb4dc;
+margin: 0 auto;
+max-width: 95%;
+}
+
+.outer-container {
+  background-color: #f0dc39;
+}
+
+.container p {
+  font-size: 4vh;
+  font-family: 'Loved by the King', cursive;
+  margin: 0 17.5% 2% 17.5%;
+    text-shadow: 2px 2px 2px #4b82cd;
+}
+
+.treat-container {
+  display: grid;
+  grid-template: auto / 45% 45%;
+  grid-gap: 4vw;
+  margin-top: 2vh;
+}
+
+.sweets {
+ background-color: #fbb4dc;
+ width: 80%;
+ margin: 0 auto;
+ text-align: center;
+ border: 5px solid #f0dc39;
+ border-radius: 20px;
+}
+
+.sweets p {
+  font-family: 'Loved by the King', cursive;
+  font-size: 4vh;
+  color: #0A3176;
+  text-shadow: 2px 2px 2px #4b82cd;
+  padding: 0 2vw;
+}
+
+
+.treat-container p {
+  font-family: 'Loved by the King', cursive;
+  font-size: 4vh;
+  color: #0A3176;
+  text-shadow: 2px 2px 2px #4b82cd;
+  padding: 0 2vw;
+}
+
+
+.big-image {
+  max-width: 65%;
+  margin: 0 17.5% 2% 17.5%;
+  max-height: 60vh;
+}
+
+.headpic {
+  margin: 0 auto;
+  max-width: 85%;
+  max-height: 60vh;
+}
+
+.image-size {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.small-pic {
+  float: left;
+  max-width: 20%;
+  border: 5px solid #4b82cd;
+  overflow: auto;
+  margin: 0 2% 0 17.5%;
+}

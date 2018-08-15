@@ -1,0 +1,13 @@
+<div class="sweets">
+<h1>Baking Events in Your Area!!</h1>
+<img src="/images/b1.jpg" class="headpic">
+<div class="treat-container">
+<% @events.first(12).each do |event| %>
+<div>
+<h2><%= event['name']['text'] %></h2>
+<img src="<%= event['logo']['url'] %>">
+<p> <%= event['description']['text'].slice(0, 250) %> ... <a href="https://www.eventbrite.com/d/ny--new-york/baking/?q=baking&loc=nyc&lc=1">Read More on Eventbrite.com!</a></p>
+</div>
+<% end %>
+</div>
+</div>

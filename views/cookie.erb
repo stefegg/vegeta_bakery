@@ -1,0 +1,14 @@
+<div class="sweets">
+<h1>The Prince's Cookies!</h1>
+<img src="/images/v3-1.jpg" class="headpic">
+<div class="treat-container">
+<% $cookies.each do |cookie| %>
+<div>
+  <h2><%= cookie.name%></h2>
+  <img src= "<%= cookie.image %>">
+  <p><%= cookie.description %></p>
+  <p><%= cookie.cost %></p>
+</div>
+<% end %>
+</div>
+</div>
