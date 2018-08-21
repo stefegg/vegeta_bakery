@@ -1,6 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    awesome_print (1.8.0)
+    curl (0.0.9)
+      awesome_print (>= 0.2.1)
+      unidecoder (>= 1.1.1)
     mustermann (1.0.3)
     rack (2.0.5)
     rack-protection (2.0.3)
@@ -11,11 +15,13 @@ GEM
       rack-protection (= 2.0.3)
       tilt (~> 2.0)
     tilt (2.0.8)
+    unidecoder (1.1.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  curl!
   sinatra!
 
 BUNDLED WITH

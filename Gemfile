@@ -1,4 +1,4 @@
 source 'https://rubygems.org' do
 gem 'sinatra'
-require 'curl'
+gem 'curl'
 end
