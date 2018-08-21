@@ -5,6 +5,7 @@ GEM
     curl (0.0.9)
       awesome_print (>= 0.2.1)
       unidecoder (>= 1.1.1)
+    json (2.1.0)
     mustermann (1.0.3)
     rack (2.0.5)
     rack-protection (2.0.3)
@@ -22,6 +23,7 @@ PLATFORMS
 
 DEPENDENCIES
   curl!
+  json!
   sinatra!
 
 BUNDLED WITH
