@@ -25,7 +25,7 @@ get '/contact' do
 end
 
 get '/events' do
-  @result = Curl::Easy.perform("https://www.eventbriteapi.com/v3/events/search//?q=baking&location.address=nyc&token=44ZRBDN4HYITKNUPIVV7")
+  @result = Curl::Easy.perform("https://www.eventbriteapi.com/v3/events/search//?q=baking&location.address=nyc&token=PIVETZD32CRELLWG4DJ5")
   @data = @result.body_str
   @parsed = JSON.parse(@data)
   @events = @parsed['events']
