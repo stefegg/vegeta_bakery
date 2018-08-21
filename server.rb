@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'curl'
+require 'json'
 
 set :public_folder, File.dirname(__FILE__) + '/publics'
 
